@@ -1,0 +1,78 @@
+---
+- name: "Buddha delite roll"
+  price: 7
+  gf: GF*
+  description: "Sweet potato tempura, avocado, cucumber, spinach and sesame seed"
+- name: "Sweet potato roll"
+  price: 6
+  gf: GF*
+  description: "Sweet potato lightly tempura with sesame seed"
+- name: "New veggie delite roll"
+  price: 7
+  gf: GF
+  description: "Asparagus, mango, inari, carrot, avocado, cucumber and sesame seed"
+- name: "Temple roll"
+  price: 9
+  description: "Sweet potato tempura inside roll, topped w/ avocado, inari, and seaweed salad"
+- name: "Red beet roll"
+  price: 10
+  gf: GF
+  description: "Mango, red beets, avocado, asparagus and carrot. Topped with mango sauce"
+- name: "Shogun roll"
+  price: 12
+  gf: GF
+  description: "Shrimp, mango, cucumber w/ a layer of shrimp& avocado on top w/ mango sauce"
+- name: "Philly roll"
+  price: 9
+  gf: GF
+  description: "Smoked salmon, cream cheese, cucumber, sesame seed and scallion"
+- name: "Real rainbow roll"
+  price: 12
+  gf: GF
+  description: "Snow crab, avocado, cucumber inside roll. Topped w/ of tuna, salmon, white fish"
+- name: "California roll"
+  price: 5
+  description: "Krab, avocado, cucumber, sesame seed and caviar"
+- name: "California roll with real snow crab"
+  price: 9
+  gf: GF
+  description: "Snow crap, avocado, cucumber, sesame seed and caviar"
+- name: "Shrimp tempura roll"
+  price: 10
+  description: "Shrimp tempura, cucumber, avocado and caviar"
+- name: "Spider roll"
+  price: 12
+  description: "Soft shell crab tempura, cucumber, avocado and caviar"
+- name: "Spicy & Crunch roll"
+  price: 9
+  gf: GF*
+  description: "Choice of tuna, salmon or y<tail w/ spicy crunchy tempura and spicy sauce"
+- name: "First love roll"
+  price: 9
+  gf: GF
+  description: "Spicy salmon, avocado, cucumber and layer of fresh salmon on top"
+- name: "Rock & Roll"
+  price: 13
+  description: "Shrimp tempura w/ spicy tuna and sweet mango & crunchy tempura flake on top"
+- name: "Green dragon roll"
+  price: 11
+  description: "Roasted eel, avocado wrapped inside roll. Topped with layer of avocado"
+- name: "Red dragon roll"
+  price: 12
+  description: "Roasted eel, avocado wrapped inside roll. Topped with spicy tuna & spicy sauce"
+- name: "Banzai roll"
+  price: 10
+  description: "Spicy tuna & avocado wrapped inside roll. Topped with seaweed salad"
+- name: "Dynamite roll"
+  price: 9
+  gf: GF
+  description: "Choice of tuna, salmon or yellowtail with cucumber, spicy sauce and scallion"
+- name: "Golden crunchy roll (no rice)"
+  price: 12
+  description: "Tuna, salmon, white fish wrapped inside roll the tempura w/ 3 special hot sauce"
+- name: "Volcano roll"
+  price: 13
+  description: "Baked scallop & salmon with a special spicy sauce on topped of California roll"
+- name: "Volcano roll with real snow crap"
+  price: 16
+  description: "Baked scallop & salmon with a special spicy sauce on topped of California roll"

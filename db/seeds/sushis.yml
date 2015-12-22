@@ -1,0 +1,82 @@
+---
+- name: "RED CLAM (Hokikai)"
+  price1: 2.0
+  price2: 2.0
+- name: "RED SNAPPER (Tai)"
+  price1: 2.0
+  price2: 5.5
+- name: "EEL (Unagi)"
+  price1: 2.5
+  price2: 7.0
+- name: "TAMAGO (Egg Omelet)"
+  price1: 2.0
+  price2: 5.0
+- name: "FLYING FISH ROE"
+  price1: 2.5
+  price2: 5.0
+- name: "MACKEREL (Saba)"
+  price1: 2.5
+  price2: 5.5
+- name: "OCTOPUS (Tako)"
+  price1: 2.5
+  price2: 5.5
+- name: "SQUID (Ika)"
+  price1: 2.5
+  price2: 5.5
+- name: "SEA URCHUN (Uni) *Check availability*"
+  price1: 4.0
+  price2: 9.0
+- name: "SCALLOP Spicy Creamy"
+  price1: 3.5
+  price2: 7.0
+- name: "SWEET SHRIMP no head"
+  price1: 2.5
+  price2: 6.0
+- name: "SHRIMP (Ebi)"
+  price1: 2.0
+  price2: 5.5
+- name: "WILD SALMON ALASKA"
+  price1: 3.0
+  price2: 6.5
+- name: "WILD SALMON ROE"
+  price1: 2.5
+  price2: 5.5
+- name: "SALMON SKIN"
+  price1: 2.0
+  price2: 5.0
+- name: "SMOKED SALMON"
+  price1: 2.5
+  price2: 6.0
+- name: "SALMON (sake)"
+  price1: 2.0
+  price2: 5.5
+- name: "FATTY SALMON Seared"
+  price1: 3.0
+  price2: 6.0
+- name: "SNOW CRAB (spicy)"
+  price1: 4.0
+  price2: 7.0
+- name: "WHITE TUNA"
+  price1: 3.0
+  price2: 6.0
+- name: "TUNA (Albacore)"
+  price1: 2.5
+  price2: 5.5
+- name: "TUNA (Maguro)"
+  price1: 2.5
+  price2: 5.5
+- name: "Y-TAIL (Hamachi)"
+  price1: 2.5
+  price2: 6.0
+- name: "AVOCADO"
+  price1: 1.0
+  price2: 4.0
+- name: "ASPARAGUS"
+  price1: 1.0
+  price2: 4.0
+- name: "CUCUMBER"
+  price1: 1.0
+  price2: 4.0
+- name: "INARI (Tofu pocket)"
+  price1: 1.5
+  price2: 4.0

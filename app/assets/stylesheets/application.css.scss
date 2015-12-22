@@ -1,0 +1,182 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+*/
+
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// Color Variable
+$white:  #ffffff;
+$darkgrey: #342F20;
+$grey: #3b3f45;
+$red: #ff0000;
+$darkred: #A11829;
+$offwhite: #ececec;
+$textgrey: #333333;
+
+body {
+  font-family: Courier, serif;
+  position: relative;
+}
+
+.red {
+  color: $darkred
+}
+
+.center {
+  text-align: center;
+}
+
+.nav-bar {
+  background-color: transparentize($white, .40);
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  .logo {
+    font-size: 18px;
+    padding: 5px 0;
+
+    img, p {
+      display: block;
+      font-size: 13px;
+      margin: auto;
+      text-align: center;
+      width: 35%;
+    }
+  }
+}
+
+.nav-main {
+  font-size: 15px;
+}
+
+.nav-menu {
+  padding: 30px 100px 45px 0;
+
+  a {
+    text-decoration: none;
+    color: $textgrey;
+  }
+}
+
+.large-image {
+  display: block;
+  height: 500px;
+  width: 100%;
+
+  &.main1 {
+    background: image-url("oneonta1.jpg");
+    background-size: 100% 700px;
+  }
+
+  &.menu1 {
+    background: image-url("sushi3.jpg");
+    background-size: 100% 700px;
+  }
+
+  &.menu2 {
+    background: image-url("sushi1.jpg");
+    background-size: 100% 700px;
+  }
+
+  &.main2 {
+    background: image-url("sushi4.jpg");
+    background-size: 100% 700px;
+  }
+
+  &.main3 {
+    background: image-url("sushi2.jpg");
+    color: $offwhite;
+    background-size: 100% 700px;
+  }
+}
+
+.menu {
+  background-color: $grey;
+  color: $offwhite;
+  display: block;
+  padding: 20px 0;
+  width: 100%;
+
+  a {
+    position: relative;
+    top: 50px;
+  }
+
+  .header {
+    padding: 10px 0 20px 0;
+  }
+}
+
+a.main {
+  display: block;
+  position: relative;
+  top: -90px;
+}
+
+.menu-header {
+  height: 75px;
+  top: 425px;
+  display: block;
+  background-color: transparentize($grey, .40);
+  z-index: 50;
+
+  &.high-header {
+    height: 100px;
+    top: 400px;
+
+    p {
+      color: $offwhite;
+    }
+  }
+
+  a {
+    display: block;
+    height: 1px;
+    position: absolute;
+    bottom: 220px;
+  }
+
+  h1 {
+    color: $offwhite;
+  }
+}
+
+.about {
+  background-color: $grey;
+  color: $offwhite;
+  padding: 30px 0px;
+  width: 100%;
+
+  img {
+    border-radius: 115px/175px;
+    padding: 20px 0;
+  }
+}
+
+.contact {
+  padding: 30px;
+
+  img {
+    padding: 20px;
+    width: 15%;
+
+    &.facebook {
+      width: 8%;
+    }
+  }
+}
+
+.location, .hours {
+  background-color: transparentize($offwhite, .40);
+  color: $darkgrey;
+  margin-top: 70px;
+  padding: 0 0 30px 30px;
+}

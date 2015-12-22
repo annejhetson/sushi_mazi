@@ -1,0 +1,25 @@
+---
+- name: "Veggie Sushi"
+  price: 15
+  gf: GF*
+  description: "7 pcs of veggie sushi and sweet potato tempura roll"
+- name: "Sushi regular"
+  price: 19
+  gf: GF*
+  description: "The chef’s daily choice of 7 pcs sushi and spicy crunchy tuna roll"
+- name: "Sushi deluxe"
+  price: 23
+  gf: GF
+  description: "The chef’s daily choice of 9 pcs sushi and spicy tuna roll"
+- name: "Mazi platter for 2 persons"
+  price: 55
+  gf: GF
+  description: "8 pcs of sushi, 10 pcs of sashimi, spicy crunchy tuna roll and 2 chef rolls"
+- name: "Chicken teriyaki (served with rice)"
+  price: 13
+- name: "Salmon teriyaki (served with rice)"
+  price: 15
+- name: "Tofu teriyaki (served with rice)"
+  price: 12
+- name: "Chicken Katsu (served with rice)"
+  price: 14

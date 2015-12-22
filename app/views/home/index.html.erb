@@ -1,0 +1,96 @@
+<div class="nav-bar nav-main container">
+  <div class="row">
+    <div class='logo col-xs-2'>
+      <img src="<%= asset_path( 'mazi-fish-logo.png' ) %>" />
+      <p class="center">sushi <span class='red'>mazi</span></p>
+    </div>
+    <div class='nav-menu'>
+      <div class='col-xs-1 center pull-right'>
+        <a href="#contact">contact</a>
+      </div>
+      <div class='col-xs-1 center pull-right'>
+        <a href="#hours">hours</a>
+      </div>
+      <div class='col-xs-1 center pull-right'>
+        <a href="#location">location</a>
+      </div>
+      <div class='col-xs-1 center pull-right'>
+        <a href="#about">about</a>
+      </div>
+      <div class='col-xs-1 center pull-right'>
+        <%= link_to "menu", menu_path %>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="large-image main1">
+</div>
+<div class='container about center'>
+  <a id="about" class="main"></a>
+  <div class='row'>
+    <div class='col-md-2'>
+    </div>
+    <div class='col-md-8'>
+      <h3>We do sushi!</h3>
+      <p>Chef Marc selects the freshest fish & ingredients from local market to create contemporary sushi & maki with Japanese roots. Experience culinary artistry and savor every moment.</p>
+      <img src="<%= asset_path( 'marc.jpg' ) %>" />
+    </div>
+    <div class='col-md-2'>
+    </div>
+  </div>
+</div>
+
+<div class="large-image main2">
+  <a id="location" class="main"></a>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-1'>
+      </div>
+      <div class='col-md-3 location'>
+        <h3>Sushi Mazi</h3>
+        <p>2126 SE Division Street</p>
+        <p>Portland, Oregon 97292</p>
+        <%= link_to "Get Direction", "https://www.google.com/maps/dir/Current+Location/sushimazi" %>
+      </div>
+      <div class='col-md-6'>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='container contact center'>
+  <a id="contact" class="main"></a>
+  <div class='row'>
+    <div class='col-md-12'>
+      <img src="<%= asset_path( 'mazi-logo.gif' ) %>" />
+      <h3>We love to hear from you.</h3>
+      <p>contact@sushimazipdx.com</p>
+      <p>Phone: 503-432-8651</p>
+      <%= link_to image_tag('facebook.png', :class => 'facebook'), "https://www.facebook.com/Sushi-Mazi-121882967868776" %>
+      <%= link_to image_tag('yelp.png', :class => 'facebook'), "http://www.yelp.com/biz/sushi-mazi-portland" %>
+    </div>
+  </div>
+</div>
+
+<div class="large-image main3">
+  <a id="hours" class="main"></a>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-8'>
+      </div>
+      <div class='col-md-4 hours'>
+          <h3>Hours</h3>
+          <p>Lunch: Tue - Fri 11:30a - 3:00p</p>
+          <p>Dinner: Tue - Fri - 5:00p - Close</p>
+          <p>Dinner: Sat - Sun 4:30p - Close</p>
+          <p>Happy Hour: Tue - Fri 5:00p - 6:00p</p>
+          <p>Happy Hour: Sat - Sun 4:30p - 6:00p</p>
+          <p>Closed Monday</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="center">
+  <p>Sushi Mazi | 2015</p>
+</div>

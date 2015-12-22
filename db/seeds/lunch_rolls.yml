@@ -1,0 +1,82 @@
+---
+- name: "New shrimp tempura roll"
+  price: 13
+  gf: (8pcs)
+  description: "Shrimp tempura, avocado, cucumber inside roll topped with avocado"
+- name: "Crunchy green dragon roll"
+  price: 14
+  description: "Roasted eel, avocado, crunchy tempura and layer of avocado on top"
+- name: "Rainbow roll"
+  price: 16
+  gf: GF
+  description: "Snow crab, avocado, cucumber wrapped inside roll. Topped with layer of tuna, salmon, white fish and avocado"
+- name: "Salmon lover roll"
+  price: 13
+  gf: GF
+  description: "Spicy salmon, avocado, cucumber wrapped inside roll. Topped with fresh salmon sashimi"
+- name: "White pearl roll"
+  price: 15
+  gf: GF
+  description: "Spicy scallop & avocado wrapped inside roll. Topped w/ seared tuna"
+- name: Rock & roll
+  price: 14
+  description: "Shrimp tempura & cucumber wrapped inside roll. Topped w/ spicy Tuna & crunchy tempura flake and sweet mango"
+- name: "Tuna lover roll"
+  price: 14
+  gf: GF
+  description: "Spicy tuna & avocado wrapped inside roll. Topped with fresh tuna"
+- name: "California Route 66 roll"
+  price: 13
+  description: "Shrimp, avocado, cucumber wrapped inside roll then tempura w/ Japanese batter. Topped with spicy crunchy krab salad & sauce"
+- name: "Pop rock roll"
+  price: 14
+  gf: GF
+  description: "Spicy tuna, avocado, seasoning seaweed wrapped inside roll. Topped with real Pop Rocks! that will pop in your mouth"
+- name: DUO roll
+  price: 13
+  gf: GF*
+  description: "Spicy crunchy tuna & salmon, cucumber, avocado with caviar"
+- name: "Spider roll"
+  price: 14
+  description: "Soft shell crab tempura, avocado, cucumber and caviar"
+- name: "Yellow tail lover roll"
+  price: 14
+  gf: GF*
+  description: "Spicy crunchy yellowtail, avocado, jalapeno wrapped inside roll. Topped with layer of fresh yellowtail & scallion"
+- name: "Mazi 2 combination roll"
+  price: 12
+  gf: GF
+  description: "Your choice of California roll / eel roll / spicy tuna roll / spicy salmon roll"
+- name: Chirashi
+  price: 14
+  gf: GF
+  description: "Seasoning sushi rice topped with 8pcs daily fresh sashimi & caviar"
+- name: "Sushi mazi lunch"
+  price: 14
+  gf: GF*
+  description: "Chef’s choice of 5pcs daily fresh sushi and spicy tuna crunchy roll"
+- name: "Sashimi lunch"
+  price: 15
+  gf: GF
+  description: "Chef’s choice of 10pcs daily fresh sashimi and steamed rice"
+- name: "Veggie sushi lunch"
+  price: 10
+  gf: GF*
+  description: "5 pcs. Of veggie sushi and sweet potato tempura roll"
+- name: "Veggie 2 combination roll"
+  price: 10
+  gf: GF*
+  description: "Your choice of avocado roll / cucumber roll / sweet potato tempura roll"
+- name: "Red beets roll"
+  price: 10
+  gf: GF
+  description: "Mango, red beets, avocado, asparagus and carrot. With mango sauce"
+- name: "Chicken Teriyaki lunch"
+  price: 11
+  gf: GF*
+- name: "Salmon Teriyaki lunch"
+  price: 13
+  gf: GF*
+- name: "Tofu Teriyaki lunch"
+  price: 11
+  gf: GF*

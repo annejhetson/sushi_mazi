@@ -1,0 +1,70 @@
+---
+- name: "edamame"
+  price: 3
+  description: "steamed soy bean with salt"
+  gf: GF
+- name: "seaweed salad"
+  price: 3
+  description: "seasoning seaweeds"
+- name: "veggie tempura"
+  price: 5
+  description: "assorted mix green vegetable tempura"
+- name: "gyoza"
+  price: 5
+  description: "pan fried pork & veggie dumpling"
+- name: "best starter"
+  price: 4
+  description: "purple sweet potato tempura"
+- name: "fire cracker"
+  price: 5
+  description: "krab & jalapeno then tempura w/mazi hot sauce"
+- name: "baked green mussel"
+  price: 5
+  description: "with special hot sauce, scallion, caviar"
+  gf: GF
+- name: "california roll"
+  price: 4
+  description: "krab, avocado, cucumber and caviar"
+- name: "eel roll"
+  price: 5
+  description: "eel, avocado and sesame seed & sake sauce"
+- name: "dynamite roll"
+  price: 5
+  description: "choice of spicy tuna or salmon w/cucumber"
+  gf: GF
+- name: "spicy & crunchy"
+  price: 5
+  description: "choice of tuna or salmon w/tempura flake"
+  gf: GF*
+- name: "salmon skin roll"
+  price: 4
+  description: "with cucumber & sake sauce"
+  gf: GF
+- name: "green dragon roll"
+  price: 6
+  description: "eel & avocado, topped w/layer of avocado"
+- name: "shrimp tempura roll"
+  price: 5
+  description: "w/avocado, cucumber, caviar& sake sauce"
+- name: "happy roll"
+  price: 7
+  description: "cali roll topped w/ spicy tuna& seaweed salad"
+- name: "tuna or salmon roll"
+  price: 4
+  description: "wrapped with sushi rice"
+  gf: GF
+- name: "sweet potato tempura roll"
+  price: 4
+  description: "wrapped with sushi rice"
+  gf: GF
+- name: "tofu tempura roll"
+  price: 5
+  description: "with seasoning seaweed salad on top"
+- name: "veggie delite roll"
+  price: 5
+  description: "cucumber, avocado, carrot and tofu"
+  gf: GF
+- name: "avocado / cucumber roll"
+  price: 3
+  description: "wrapped with sushi rice"
+  gf: GF

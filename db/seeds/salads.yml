@@ -1,0 +1,27 @@
+---
+- name: Edamame
+  price: 3
+  gf: GF
+  description: "Steamed soy bean with salt'"
+- name: "Miso soup"
+  price: 2
+  gf: GF
+  description: "Tofu, scallion and dry konbo (seaweed) in white miso paste. Our homemade soup is base on dashi stock"
+- name: "House salad"
+  price: 4
+  gf: GF
+  description: "Mixed organic green salad with our homemade wasabi dressing"
+- name: "Seasoning seaweed salad"
+  price: 4
+  description: "Mixed of 4 different kinds of seasoning seaweed"
+- name: "Sunomono salad"
+  price: 3.5
+  description: "Traditional Japanese style with sweet vinegar dressing"
+- name: "Sunomono salad with roasted salmon skin"
+  price: 6.5
+- name: "Sunomono salad with shrimp & octopus"
+  price: 7.5
+- name: "Sashimi spicy salad"
+  price: 14
+  gf: GF
+  description: "Tuna, salmon and white fish mixed in spicy dressing. Served on top of seasoning mixed fresh organic green salad & special caviar"

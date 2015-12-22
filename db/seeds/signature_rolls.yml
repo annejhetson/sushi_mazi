@@ -1,0 +1,55 @@
+---
+- name: "Wild salmon lover roll"
+  price: 17
+  gf: GF
+  description: "Spicy snow crab, avocado wrapped inside roll. Topped w/ layer of fresh wild salmon & avocado"
+- name: "Super rock & roll"
+  price: 15
+  description: "Shrimp tempura & cucumber wrapped inside roll. Topped w/ spicy tuna sweet crunchy mango, tasty krab stick and sake sauce"
+- name: "Pop rock roll"
+  price: 14
+  gf: GF
+  description: "Spicy tuna, avocado, seasoning seaweed wrapped inside roll. Topped with Chef’s sauce & Pop Rocks! that will pop in your mouth"
+- name: "Crunchy green dragon roll"
+  price: 15
+  description: "Roasted eel, avocado, crunchy tempura flake wrapped inside roll. Topped with layer of avocado, sesame seed & chef’s sauce"
+- name: "Yellow tail torch roll"
+  price: 16
+  gf: GF
+  description: "Spicy yellowtail & avocado, wrapped inside roll. Topped w/ yellowtail sashimi and avocado then torch with seasoning chili flake"
+- name: "White pearl roll"
+  price: 15
+  gf: GF
+  description: "Spicy cream scallop & avocado wrapped inside roll. Topped with seared black pepper tuna, caviar and miso sauce"
+- name: "New albacore tuna roll"
+  price: 15
+  gf: GF*
+  description: "Albacore tuna, avocado, jalapeno, crunchy tempura, topped w/ seared black pepper albacore tuna, avocado & miso sauce"
+- name: "Golden dragon roll"
+  price: 15
+  description: "Crunchy roasted eel, avocado w/ creamy seared black pepper salmon on top. Served with miso & sake sauce"
+- name: "Sunset roll"
+  price: 14
+  gf: GF
+  description: "Tuna, salmon, asparagus, avocado, mango and special black & orange caviar with mango sauce"
+- name: "Red spider roll"
+  price: 16
+  description: "Soft shell crab tempura, avocado, cucumber inside roll. Topped w/ spicy tuna & tasty crunchy mango tempura flake on top"
+- name: "Yellow tail lover roll"
+  price: 16
+  gf: GF*
+  description: "Spicy crunchy yellowtail & jalapeno wrapped inside roll. Topped with layer of fresh yellowtail, green caviar & scallion"
+- name: "Salmon lover roll"
+  price: 14
+  gf: GF
+  description: "Spicy salmon & avocado wrapped inside roll. Topped with seared black pepper salmon & miso sauce"
+- name: "Buddha crunchy roll (without rice)"
+  price: 11
+  description: "Inari, mango, asparagus, avocado, sweet yellow daikon, seasoning seaweed wrapped inside roll then delicately tempura. Topped w/ 3 Mazi spicy sauces & crispy noodle"
+- name: "Tofu Inari roll"
+  price: 12
+  description: "Asparagus, carrot, mango, spinach, cucumber inside roll. Topped w/ Inari tofu sheet & miso sauce"
+- name: "Asparagus tempura roll"
+  price: 11
+  gf: GF*
+  description: "Asparagus lightly tempura wrapped inside with avocado & cucumber. Topped w/ layer of avocado & sesame seed"

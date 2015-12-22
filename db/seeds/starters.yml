@@ -1,0 +1,46 @@
+---
+- name: Edamame
+  price: 3
+  gf: GF
+  description: "Steamed soy bean with salt'"
+- name: "Best starter"
+  price: 5
+  gf: GF
+  description: "Sweet purple potato lightly tempura with special batter"
+- name: "Veggie Gyoza dumpling"
+  price: 6.5
+  description: "Steam veggie gyoza dumpling with 5 different kinds of veggies"
+- name: "Sashimi 10 pcs"
+  price: 15
+  gf: GF
+  description: "The chef’s daily choice of freshness sashimi fish"
+- name: "Baked green mussel"
+  price: 7
+  gf: GF
+  description: "With 3 special chef spicy sauce, caviar & scallion"
+- name: "Real grasshopper sushi"
+  price: 2.5
+  gf: GF
+  description: "Food No. 101 you must have before you die!!!"
+- name: "Sake black sesame"
+  price: 13
+  gf: GF
+  description: "Fresh salmon sashimi marinated in olive oil then sprinkle with black sesame, seasoning chili flake and salt & black pepper. Served with wasabi honey dressing"
+- name: "Fire cracker"
+  price: 8
+  description: "Krab stick, jalapeno, sushi rice wrapped with nori then tempura top with 3 special hot sauces, scallion & caviar"
+- name: "Gyoza dumpling"
+  price: 6.5
+  description: "Crisp pan fried pork & veggie dumpling with special gyoza sauce"
+- name: "Coconut shrimp roll"
+  price: 8
+  description: "Crispy rolls with shrimp, Thai chili paste & sweet coconut wrapped in a spring roll sheet. Served with mango sauce"
+- name: "Wild mushroom cigar"
+  price: 7
+  description: "Wrapped in spring roll sheet with garlic, local mushroom, salt & black pepper and Thai spices. Served with plum sauce"
+- name: "Shrimp & Vegetable Tempura"
+  price: 8
+  description: "Delicately deep fried using special batter. Served with Mazi sauce"
+- name: "Vegetable Tempura"
+  price: 6
+  description: "Delicately deep fried using special batter. Served with Mazi sauce"
