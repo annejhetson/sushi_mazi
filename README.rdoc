@@ -1,3 +1,5 @@
 == README
 
-Will update this later
+==== Setup
+
+`rake db:create db:migrate db:seed`
