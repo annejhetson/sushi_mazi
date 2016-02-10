@@ -1,28 +1,31 @@
-<div class="nav-bar nav-main container">
-  <div class="row">
-    <div class='logo col-xs-2'>
-      <img src="<%= asset_path( 'mazi-fish-logo.png' ) %>" />
-      <p class="center">sushi <span class='red'>mazi</span></p>
-    </div>
-    <div class='nav-menu'>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#contact">contact</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#hours">hours</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#location">location</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#about">about</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <%= link_to "menu", menu_path %>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class='logo col-xs-2'>
+        <%= link_to image_tag('mazi-fish-logo.png'), root_path %>
+        <p class="center">sushi <span class='red'>mazi</span></p>
       </div>
     </div>
-  </div>
-</div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right nav-menu">
+        <li><%= link_to "menu", menu_path %></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#location">location</a></li>
+        <li><a href="#hours">hours</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
 <div class="large-image main1">
 </div>
 <div class='container about center'>
