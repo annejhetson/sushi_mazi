@@ -28,35 +28,59 @@
 
 <div class="large-image main1">
 </div>
-<div class='container about center'>
+
+<div class="three-section about row" id="about">
+  <div class='col-md-4'>
+  </div>
+  <div class='col-md-2 center'>
+    <img src="<%= asset_path( 'marc.jpg' ) %>" />
+  </div>
+  <div class='col-md-4 center'>
+    <div class='col-md-8 about-content'>
+      <h3>Meet Chef Marc</h3>
+      <p>Head Chef/ Owner</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+
+<!-- <div class='container about center'>
   <a id="about" class="main"></a>
   <div class='row'>
     <div class='col-md-2'>
     </div>
     <div class='col-md-8'>
-      <h3>We do sushi!</h3>
-      <p>Chef Marc selects the freshest fish & ingredients from local market to create contemporary sushi & maki with Japanese roots. Experience culinary artistry and savor every moment.</p>
+      <h3>Meet Marc</h3>
+      <p>Chef Marc, a head sushi chef with 10+ years of experience in creating culinary artistry from his kitchen to yours</p>
       <img src="<%= asset_path( 'marc.jpg' ) %>" />
     </div>
     <div class='col-md-2'>
     </div>
   </div>
-</div>
+</div> -->
 
-<div class="large-image main2">
-  <a id="location" class="main"></a>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-md-1'>
-      </div>
-      <div class='col-md-3 location'>
-        <h3>Sushi Mazi</h3>
-        <p>2126 SE Division Street</p>
-        <p>Portland, Oregon 97292</p>
-        <%= link_to "Get Direction", "https://www.google.com/maps/dir/Current+Location/sushimazi" %>
-      </div>
-      <div class='col-md-6'>
-      </div>
+<div class="three-section row">
+  <div class='col-md-4'>
+    <div class="col-md-4"></div>
+    <div id="location" class='col-md-8 location text-right'>
+      <h3>Location</h3>
+      <p>2126 SE Division Street</p>
+      <p>Portland, Oregon 97292</p>
+      <p><%= link_to "Get Direction", "https://www.google.com/maps/dir/Current+Location/sushimazi" %></p>
+    </div>
+  </div>
+  <div class='col-md-4'>
+    <img src="<%= asset_path( 'S__6225928.jpg' ) %>">
+  </div>
+  <div class='col-md-4'>
+    <div id="hours" class='col-md-10 hours'>
+      <h3>Hours</h3>
+      <p>Lunch: Tue - Fri 11:30a - 3:00p</p>
+      <p>Dinner: Tue - Fri - 5:00p - Close</p>
+      <p>Dinner: Sat - Sun 4:30p - Close</p>
+      <p>Happy Hour: Tue - Fri 5:00p - 6:00p</p>
+      <p>Happy Hour: Sat - Sun 4:30p - 6:00p</p>
+      <p>Closed Monday</p>
     </div>
   </div>
 </div>
@@ -64,36 +88,21 @@
 <div class='container contact center'>
   <a id="contact" class="main"></a>
   <div class='row'>
-    <div class='col-md-12'>
+    <div class='col-md-4'>
+    </div>
+    <div class='col-md-4'>
       <img src="<%= asset_path( 'mazi-logo.gif' ) %>" />
-      <h3>We love to hear from you.</h3>
+      <h4>We love to hear from you.</h4>
       <p>contact@sushimazipdx.com</p>
       <p>Phone: 503-432-8651</p>
       <%= link_to image_tag('facebook.png', :class => 'facebook'), "https://www.facebook.com/Sushi-Mazi-121882967868776" %>
       <%= link_to image_tag('yelp.png', :class => 'facebook'), "http://www.yelp.com/biz/sushi-mazi-portland" %>
     </div>
-  </div>
-</div>
-
-<div class="large-image main3">
-  <a id="hours" class="main"></a>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-md-8'>
-      </div>
-      <div class='col-md-4 hours'>
-          <h3>Hours</h3>
-          <p>Lunch: Tue - Fri 11:30a - 3:00p</p>
-          <p>Dinner: Tue - Fri - 5:00p - Close</p>
-          <p>Dinner: Sat - Sun 4:30p - Close</p>
-          <p>Happy Hour: Tue - Fri 5:00p - 6:00p</p>
-          <p>Happy Hour: Sat - Sun 4:30p - 6:00p</p>
-          <p>Closed Monday</p>
-        </div>
-      </div>
+    <div class='col-md-4'>
     </div>
   </div>
 </div>
+
 <div class="center">
-  <p>Sushi Mazi | 2015</p>
+  <p>Sushi Mazi | 2016</p>
 </div>
