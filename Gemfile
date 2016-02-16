@@ -10,6 +10,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'devise'
+gem 'gmaps4rails'
 
 group :development do
   gem 'better_errors'

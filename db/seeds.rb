@@ -1,4 +1,3 @@
-
 def seed_from_file(klass)
   return unless klass.count == 0
 

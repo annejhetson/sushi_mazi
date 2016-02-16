@@ -30,8 +30,9 @@ body {
   text-align: center;
 }
 
-.nav-bar {
+.navbar {
   background-color: transparentize($white, .40);
+  border: none;
   height: 90px;
   width: 100%;
   position: fixed;
@@ -41,14 +42,14 @@ body {
 
   .logo {
     font-size: 18px;
-    padding: 5px 0;
+    padding: 5px 10px;
 
     img, p {
       display: block;
       font-size: 13px;
       margin: auto;
       text-align: center;
-      width: 35%;
+      width: 85px;
     }
   }
 }
@@ -57,8 +58,22 @@ body {
   font-size: 15px;
 }
 
+.navbar-toggle {
+  margin-top: 25px;
+}
+
+.navbar-collapse {
+  border: none;
+}
+
+.navbar-right.nav-menu {
+  text-align: right;
+  margin-right: 10px;
+}
+
 .nav-menu {
-  padding: 30px 100px 45px 0;
+  padding: 20px 0px 45px 0;
+
 
   a {
     text-decoration: none;
@@ -66,41 +81,59 @@ body {
   }
 }
 
-.large-image {
-  display: block;
-  height: 500px;
+.map {
   width: 100%;
+  height: 400px;
+}
+
+.large-image {
 
   &.main1 {
-    background: image-url("oneonta1.jpg");
-    background-size: 100% 700px;
-  }
-
-  &.menu1 {
-    background: image-url("sushi3.jpg");
-    background-size: 100% 700px;
-  }
-
-  &.menu2 {
-    background: image-url("sushi1.jpg");
-    background-size: 100% 700px;
+    background: image-url("S__6225927.jpg");
+    padding-top: 40%;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    min-height: 200px;
   }
 
   &.main2 {
     background: image-url("sushi4.jpg");
-    background-size: 100% 700px;
+    background-size: cover;
+    padding-top: 40%;
   }
+
+  &.menu1 {
+    background: image-url("IMG_3670.JPG");
+    padding-top: 50%;
+    background-size: cover;
+    margin: auto;
+    min-height: 200px;
+  }
+
+  &.menu2 {
+    background: image-url("sushi1.jpg");
+    background-size: cover;
+  }
+
 
   &.main3 {
     background: image-url("sushi2.jpg");
     color: $offwhite;
-    background-size: 100% 700px;
+    background-size: cover;
+  }
+}
+
+.three-section {
+  margin-left: 0;
+  img {
+    width: 100%;
   }
 }
 
 .menu {
-  background-color: $grey;
-  color: $offwhite;
+  background-color: whitesmoke;
+  color: $darkgrey;
   display: block;
   padding: 20px 0;
   width: 100%;
@@ -113,6 +146,25 @@ body {
   .header {
     padding: 10px 0 20px 0;
   }
+
+  .starter {
+    background: image-url("S__6225930.jpg");
+    padding-top: 100%;
+    background-size: cover;
+    margin: auto;
+    width: 310px;
+  }
+
+  .note {
+    color: $red;
+  }
+}
+
+
+.rolls {
+  p {
+    margin: 10px 5px 0px 0px;
+  }
 }
 
 a.main {
@@ -123,17 +175,16 @@ a.main {
 
 .menu-header {
   height: 75px;
-  top: 425px;
+  // top: 425px;
   display: block;
-  background-color: transparentize($grey, .40);
+  // background-color: transparentize($grey, .40);
   z-index: 50;
 
   &.high-header {
     height: 100px;
-    top: 400px;
 
     p {
-      color: $offwhite;
+      color: $darkgrey;
     }
   }
 
@@ -145,20 +196,25 @@ a.main {
   }
 
   h1 {
-    color: $offwhite;
+    color: $darkgrey;
   }
 }
 
 .about {
   background-color: $grey;
   color: $offwhite;
-  padding: 30px 0px;
+  padding: 60px 0px;
   width: 100%;
 
   img {
-    border-radius: 115px/175px;
-    padding: 20px 0;
+    border-radius: 125px/175px;
+    width: 60%;
+    max-width: 150px;
   }
+
+  // .about-content {
+  //   margin-top: 8%;
+  // }
 }
 
 .contact {
@@ -166,10 +222,9 @@ a.main {
 
   img {
     padding: 20px;
-    width: 15%;
 
     &.facebook {
-      width: 8%;
+      width: 25%;
     }
   }
 }
@@ -177,6 +232,6 @@ a.main {
 .location, .hours {
   background-color: transparentize($offwhite, .40);
   color: $darkgrey;
-  margin-top: 70px;
-  padding: 0 0 30px 30px;
+  padding: 0 25px 30px 30px;
+  margin: 15% 0;
 }

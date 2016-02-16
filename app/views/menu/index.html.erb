@@ -1,37 +1,34 @@
-<div class="nav-bar container">
-  <div class="row">
-    <div class='logo col-xs-2'>
-      <%= link_to image_tag('mazi-fish-logo.png'), root_path %>
-      <p class="center">sushi <span class='red'>mazi</span></p>
-    </div>
-    <div class='nav-menu'>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#happyhour">Happy Hour</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#lunch">lunch</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#platters">platters</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#sushi">sushi</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#special">sushi rolls</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#signature">signature rolls</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#salad">soup&salad</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#starters">starters</a>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class='logo col-xs-2'>
+        <%= link_to image_tag('mazi-fish-logo.png'), root_path %>
+        <p class="center">sushi <span class='red'>mazi</span></p>
       </div>
     </div>
-  </div>
-</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right nav-menu">
+        <li><a href="#starters">starters</a></li>
+        <li><a href="#salad">soup&salad</a></li>
+        <li><a href="#sushi">sushi</a></li>
+        <li><a href="#signature">signature rolls</a></li>
+        <li><a href="#special">sushi rolls</a></li>
+        <li><a href="#platters">platters</a></li>
+        <li><a href="#lunch">lunch</a></li>
+        <li><a href="#happyhour">Happy Hour</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 <div class="large-image menu1">
   <div class="col-md-12 menu-header">
@@ -39,6 +36,7 @@
     <h1 class="center">Starters</h1>
   </div>
 </div>
+
 <div class="container menu">
   <div class="row">
     <div class="col-md-3">
@@ -56,12 +54,10 @@
         <i>GF: Gluten Free</i>
       </div>
     </div>
-    <div class="col-md-3">
-    </div>
   </div>
 </div>
 
-<div class="large-image menu2">
+<div class="large-image">
   <div class="col-md-12 menu-header">
     <a id="salad"></a>
     <h1 class="center">Soup and Salad</h1>
@@ -90,13 +86,13 @@
   </div>
 </div>
 
-<div class="large-image menu1">
+<div class="large-image">
   <div class="col-md-12 menu-header">
     <a id="signature"></a>
     <h1 class="center">Chef Signature Rolls </h1>
   </div>
 </div>
-<div class="container menu">
+<div class="container menu rolls">
   <div class="row">
     <div class="col-md-3">
     </div>
@@ -108,8 +104,11 @@
         <div class="col-md-1">
           <p><%= roll.price %></p>
         </div>
+        <div class="col-md-12">
+          <small><%= roll.description %></small>
+        </div>
       <% end %>
-      <div class="col-md-12">
+      <div class="col-md-12 note">
         <i>GF: Gluten Free; </i>
         <i>GF*: Gluten Free option available with $1 upcharge</i>
       </div>
@@ -119,7 +118,7 @@
   </div>
 </div>
 
-<div class="large-image menu2">
+<div class="large-image">
   <div class="col-md-12 menu-header">
     <a id="special"></a>
     <h1 class="center">Sushi Rolls</h1>
@@ -138,7 +137,7 @@
           <p><%= roll.price %></p>
         </div>
       <% end %>
-      <div class="col-md-12">
+      <div class="col-md-12 note">
         <i>GF: Gluten Free; </i>
         <i>GF*: Gluten Free option available with $1 upcharge</i>
       </div>
@@ -148,7 +147,7 @@
   </div>
 </div>
 
-<div class="large-image menu1">
+<div class="large-image">
   <div class="col-md-12 menu-header">
     <a id="sushi"></a>
     <h1 class="center">Sushi a la cart</h1>
@@ -179,13 +178,9 @@
           <p><%= sushi.price2 %></p>
         </div>
       <% end %>
-      <div class="col-md-12">
+      <div class="col-md-12 note">
         <i>GF: Gluten Free; GF*: Gluten Free option available with $1 upcharge</i>
-      </div>
-      <div class="col-md-12">
         <i>Extra quail egg/ Extra sauce $1</i>
-      </div>
-      <div class="col-md-12">
         <i>Inside out with sesame seed or caviar $1</i>
       </div>
     </div>
@@ -194,7 +189,7 @@
   </div>
 </div>
 
-<div class="large-image menu1">
+<div class="large-image">
   <div class="col-md-12 menu-header high-header">
     <a id="platters"></a>
     <h1 class="center">Sushi Platters and Hot Foods</h1>
@@ -214,7 +209,7 @@
           <p><%= platter.price %></p>
         </div>
       <% end %>
-      <div class="col-md-12">
+      <div class="col-md-12 note">
         <i>GF: Gluten Free; </i>
         <i>GF*: Gluten Free option available with $1 upcharge</i>
       </div>
@@ -224,7 +219,7 @@
   </div>
 </div>
 
-<div class="large-image menu2">
+<div class="large-image">
   <div class="col-md-12 menu-header high-header">
     <a id="lunch"></a>
     <h1 class="center">Lunch Specials</h1>
@@ -244,7 +239,7 @@
           <p><%= lunch.price %></p>
         </div>
       <% end %>
-      <div class="col-md-12">
+      <div class="col-md-12 note">
         <i>GF: Gluten Free; </i>
         <i>GF*: Gluten Free option available with $1 upcharge</i>
       </div>
@@ -254,11 +249,11 @@
   </div>
 </div>
 
-<div class="large-image menu2">
+<div class="large-image">
   <div class="col-md-12 menu-header high-header">
     <a id="happyhour"></a>
     <h1 class="center">Happy Hour</h1>
-    <p class="center">(Available Tue - Sun 4:30p - 6:00p)</p>
+    <p class="center">(Available Tue - Sun 5p - 6p)</p>
   </div>
 </div>
 <div class="container menu">
@@ -274,7 +269,7 @@
           <p><%= hh.price %></p>
         </div>
       <% end %>
-      <div class="col-md-12">
+      <div class="col-md-12 note">
         <i>GF: Gluten Free; </i>
         <i>GF*: Gluten Free option available with $1 upcharge</i>
       </div>
@@ -282,4 +277,8 @@
     <div class="col-md-3">
     </div>
   </div>
+</div>
+
+<div class="center">
+  <p>Sushi Mazi | 2016</p>
 </div>

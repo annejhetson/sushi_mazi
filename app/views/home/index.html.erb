@@ -1,96 +1,136 @@
-<div class="nav-bar nav-main container">
-  <div class="row">
-    <div class='logo col-xs-2'>
-      <img src="<%= asset_path( 'mazi-fish-logo.png' ) %>" />
-      <p class="center">sushi <span class='red'>mazi</span></p>
+<script src="//maps.google.com/maps/api/js?v=3.18&sensor=false&client=&key=&libraries=geometry&language=&hl=&region="></script>
+<script src="//google-maps-utility-library-v3.googlecode.com/svn/tags/markerclustererplus/2.0.14/src/markerclusterer_packed.js"></script>
+<script src='//google-maps-utility-library-v3.googlecode.com/svn/tags/infobox/1.1.9/src/infobox_packed.js' type='text/javascript'></script> <!-- only if you need custom infoboxes -->
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class='logo col-xs-2'>
+        <%= link_to image_tag('mazi-fish-logo.png'), root_path %>
+        <p class="center">sushi <span class='red'>mazi</span></p>
+      </div>
     </div>
-    <div class='nav-menu'>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#contact">contact</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#hours">hours</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#location">location</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <a href="#about">about</a>
-      </div>
-      <div class='col-xs-1 center pull-right'>
-        <%= link_to "menu", menu_path %>
-      </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right nav-menu">
+        <li><%= link_to "menus", menu_path %></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#location">location</a></li>
+        <li><a href="#hours">hours</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="large-image main1">
+</div>
+
+<div class="three-section about row" id="about">
+  <div class='col-md-4'>
+  </div>
+  <div class='col-md-2 center'>
+    <img src="<%= asset_path( 'marc.jpg' ) %>" />
+  </div>
+  <div class='col-md-4 center'>
+    <div class='col-md-8 about-content'>
+      <h3>Meet Chef Marc</h3>
+      <p>Head Chef/ Owner</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
   </div>
 </div>
-<div class="large-image main1">
-</div>
-<div class='container about center'>
+
+<!-- <div class='container about center'>
   <a id="about" class="main"></a>
   <div class='row'>
     <div class='col-md-2'>
     </div>
     <div class='col-md-8'>
-      <h3>We do sushi!</h3>
-      <p>Chef Marc selects the freshest fish & ingredients from local market to create contemporary sushi & maki with Japanese roots. Experience culinary artistry and savor every moment.</p>
+      <h3>Meet Marc</h3>
+      <p>Chef Marc, a head sushi chef with 10+ years of experience in creating culinary artistry from his kitchen to yours</p>
       <img src="<%= asset_path( 'marc.jpg' ) %>" />
     </div>
     <div class='col-md-2'>
     </div>
   </div>
-</div>
+</div> -->
 
-<div class="large-image main2">
-  <a id="location" class="main"></a>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-md-1'>
-      </div>
-      <div class='col-md-3 location'>
-        <h3>Sushi Mazi</h3>
-        <p>2126 SE Division Street</p>
-        <p>Portland, Oregon 97292</p>
-        <%= link_to "Get Direction", "https://www.google.com/maps/dir/Current+Location/sushimazi" %>
-      </div>
-      <div class='col-md-6'>
-      </div>
+<div class="three-section row">
+  <div class='col-md-4'>
+    <div class="col-md-4"></div>
+    <div id="location" class='col-md-8 location text-right'>
+      <h3>Location</h3>
+      <p>2126 SE Division Street</p>
+      <p>Portland, Oregon 97292</p>
+      <p><%= link_to "Get Direction", "https://www.google.com/maps/dir/Current+Location/sushimazi" %></p>
+    </div>
+  </div>
+  <div class='col-md-4'>
+    <img src="<%= asset_path( 'S__6225928.jpg' ) %>">
+  </div>
+  <div class='col-md-4'>
+    <div id="hours" class='col-md-10 hours'>
+      <h3>Hours</h3>
+      <p>Lunch: Tue - Fri 11:30a - 3:00p</p>
+      <p>Dinner: Tue - Fri - 5:00p - Close</p>
+      <p>Dinner: Sat - Sun 4:30p - Close</p>
+      <p>Happy Hour: Tue - Fri 5:00p - 6:00p</p>
+      <p>Happy Hour: Sat - Sun 4:30p - 6:00p</p>
+      <p>Closed Monday</p>
     </div>
   </div>
 </div>
 
+<div id="map" class="map"></div>
+
 <div class='container contact center'>
   <a id="contact" class="main"></a>
   <div class='row'>
-    <div class='col-md-12'>
-      <img src="<%= asset_path( 'mazi-logo.gif' ) %>" />
-      <h3>We love to hear from you.</h3>
+    <div class='col-md-4'>
+    </div>
+    <div class='col-md-4'>
+      <h3>Contact</h3>
       <p>contact@sushimazipdx.com</p>
       <p>Phone: 503-432-8651</p>
       <%= link_to image_tag('facebook.png', :class => 'facebook'), "https://www.facebook.com/Sushi-Mazi-121882967868776" %>
       <%= link_to image_tag('yelp.png', :class => 'facebook'), "http://www.yelp.com/biz/sushi-mazi-portland" %>
     </div>
-  </div>
-</div>
-
-<div class="large-image main3">
-  <a id="hours" class="main"></a>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-md-8'>
-      </div>
-      <div class='col-md-4 hours'>
-          <h3>Hours</h3>
-          <p>Lunch: Tue - Fri 11:30a - 3:00p</p>
-          <p>Dinner: Tue - Fri - 5:00p - Close</p>
-          <p>Dinner: Sat - Sun 4:30p - Close</p>
-          <p>Happy Hour: Tue - Fri 5:00p - 6:00p</p>
-          <p>Happy Hour: Sat - Sun 4:30p - 6:00p</p>
-          <p>Closed Monday</p>
-        </div>
-      </div>
+    <div class='col-md-4'>
     </div>
   </div>
 </div>
+
 <div class="center">
-  <p>Sushi Mazi | 2015</p>
+  <p>Sushi Mazi | 2016</p>
 </div>
+
+<script type="text/javascript">
+  // credit https://snazzymaps.com/style/25/blue-water
+  var mapStyle = [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]}];
+  handler = Gmaps.build('Google');
+  handler.buildMap({
+    provider: {
+      zoom:      13,
+      center:    new google.maps.LatLng(45.5045981, -122.6439411),
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles:    mapStyle
+    },
+    internal: {id: 'map'}
+  }, function(){
+    markers = handler.addMarkers([
+      {
+        "lat": 45.5045981,
+        "lng": -122.6439411
+      }
+    ]);
+    handler.bounds.extendWith(markers);
+  });
+</script>
