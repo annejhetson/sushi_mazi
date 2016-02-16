@@ -133,7 +133,7 @@ body {
 
 .menu {
   background-color: whitesmoke;
-  color: $offwhite;
+  color: $darkgrey;
   display: block;
   padding: 20px 0;
   width: 100%;
@@ -154,6 +154,10 @@ body {
     margin: auto;
     width: 310px;
   }
+
+  .note {
+    color: $red;
+  }
 }
 
 
@@ -173,15 +177,14 @@ a.main {
   height: 75px;
   // top: 425px;
   display: block;
-  background-color: transparentize($grey, .40);
+  // background-color: transparentize($grey, .40);
   z-index: 50;
 
   &.high-header {
     height: 100px;
-    top: 400px;
 
     p {
-      color: $offwhite;
+      color: $darkgrey;
     }
   }
 
@@ -193,7 +196,7 @@ a.main {
   }
 
   h1 {
-    color: $offwhite;
+    color: $darkgrey;
   }
 }
 
