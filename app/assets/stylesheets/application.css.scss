@@ -85,7 +85,7 @@ body {
 
   &.main1 {
     background: image-url("S__6225927.jpg");
-    padding-top: 30%;
+    padding-top: 40%;
     background-size: cover;
     background-position: center;
     margin: auto;
@@ -99,10 +99,9 @@ body {
   }
 
   &.menu1 {
-    background: image-url("S__6225937.jpg");
-    padding-top: 35%;
+    background: image-url("IMG_3670.JPG");
+    padding-top: 50%;
     background-size: cover;
-    background-position-y: 75%;
     margin: auto;
     min-height: 200px;
   }
@@ -128,7 +127,7 @@ body {
 }
 
 .menu {
-  background-color: $grey;
+  background-color: whitesmoke;
   color: $offwhite;
   display: block;
   padding: 20px 0;
@@ -142,7 +141,16 @@ body {
   .header {
     padding: 10px 0 20px 0;
   }
+
+  .starter {
+    background: image-url("S__6225930.jpg");
+    padding-top: 100%;
+    background-size: cover;
+    margin: auto;
+    width: 310px;
+  }
 }
+
 
 .rolls {
   p {
