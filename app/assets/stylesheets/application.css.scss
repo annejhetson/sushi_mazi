@@ -155,6 +155,10 @@ body {
     width: 310px;
   }
 
+  .item {
+    margin-top: 15px;
+  }
+
   .note {
     color: $red;
   }
@@ -164,6 +168,10 @@ body {
 .rolls {
   p {
     margin: 10px 5px 0px 0px;
+
+    &.price {
+      margin-top: 5px;
+    }
   }
 }
 
@@ -174,14 +182,13 @@ a.main {
 }
 
 .menu-header {
-  height: 75px;
+  // height: 75px;
   // top: 425px;
   display: block;
   // background-color: transparentize($grey, .40);
   z-index: 50;
 
   &.high-header {
-    height: 100px;
 
     p {
       color: $darkgrey;
@@ -207,14 +214,8 @@ a.main {
   width: 100%;
 
   img {
-    border-radius: 125px/175px;
-    width: 60%;
     max-width: 150px;
   }
-
-  // .about-content {
-  //   margin-top: 8%;
-  // }
 }
 
 .contact {

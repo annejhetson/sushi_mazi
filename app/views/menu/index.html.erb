@@ -47,10 +47,10 @@
           <p><%= starter.name %>  <%= starter.gf %></p>
         </div>
         <div class="col-md-1">
-          <p><%= starter.price %></p>
+          <p class="price"><%= starter.price %></p>
         </div>
       <% end %>
-      <div class="col-md-12">
+      <div class="col-md-12 note">
         <i>GF: Gluten Free</i>
       </div>
     </div>
@@ -74,10 +74,10 @@
           <p><%= salad.name %>  <%= salad.gf %></p>
         </div>
         <div class="col-md-1">
-          <p><%= salad.price %></p>
+          <p class="price"><%= salad.price %></p>
         </div>
       <% end %>
-      <div class="col-md-12">
+      <div class="col-md-12 note">
         <i>GF: Gluten Free</i>
       </div>
     </div>
@@ -98,14 +98,16 @@
     </div>
     <div class="col-md-6">
       <% @sig_rolls.each do |roll| %>
-        <div class="col-md-11">
-          <p><%= roll.name %>  <%= roll.gf %></p>
-        </div>
-        <div class="col-md-1">
-          <p><%= roll.price %></p>
-        </div>
-        <div class="col-md-12">
-          <small><%= roll.description %></small>
+        <div class="item">
+          <div class="col-md-11">
+            <p><%= roll.name %>  <%= roll.gf %></p>
+          </div>
+          <div class="col-md-1">
+            <p class="price"><%= roll.price %></p>
+          </div>
+          <div class="col-md-12">
+            <small><%= roll.description %></small>
+          </div>
         </div>
       <% end %>
       <div class="col-md-12 note">
@@ -124,17 +126,22 @@
     <h1 class="center">Sushi Rolls</h1>
   </div>
 </div>
-<div class="container menu">
+<div class="container menu rolls">
   <div class="row">
     <div class="col-md-3">
     </div>
     <div class="col-md-6">
       <% @spe_rolls.each do |roll| %>
-        <div class="col-md-11">
-          <p><%= roll.name %>  <%= roll.gf %></p>
-        </div>
-        <div class="col-md-1">
-          <p><%= roll.price %></p>
+        <div class="item">
+          <div class="col-md-11">
+            <p><%= roll.name %>  <%= roll.gf %></p>
+          </div>
+          <div class="col-md-1">
+            <p class="price"><%= roll.price %></p>
+          </div>
+          <div class="col-md-12">
+            <small><%= roll.description %></small>
+          </div>
         </div>
       <% end %>
       <div class="col-md-12 note">
@@ -206,7 +213,7 @@
           <p><%= platter.name %>  <%= platter.gf %></p>
         </div>
         <div class="col-md-1">
-          <p><%= platter.price %></p>
+          <p class="price"><%= platter.price %></p>
         </div>
       <% end %>
       <div class="col-md-12 note">
@@ -226,17 +233,22 @@
     <p class="center">(Available Tue - Fri 11:30a - 3:00p)</p>
   </div>
 </div>
-<div class="container menu">
+<div class="container menu rolls">
   <div class="row">
     <div class="col-md-3">
     </div>
     <div class="col-md-6">
       <% @lunches.each do |lunch| %>
-        <div class="col-md-11">
-          <p><%= lunch.name %>  <%= lunch.gf %></p>
-        </div>
-        <div class="col-md-1">
-          <p><%= lunch.price %></p>
+        <div class="item">
+          <div class="col-md-11">
+            <p><%= lunch.name %>  <%= lunch.gf %></p>
+          </div>
+          <div class="col-md-1">
+            <p class="price"><%= lunch.price %></p>
+          </div>
+          <div class="col-md-12">
+            <small><%= lunch.description %></small>
+          </div>
         </div>
       <% end %>
       <div class="col-md-12 note">
@@ -266,7 +278,7 @@
           <p><%= hh.name %>  <%= hh.gf %></p>
         </div>
         <div class="col-md-1">
-          <p><%= hh.price %></p>
+          <p class="price"><%= hh.price %></p>
         </div>
       <% end %>
       <div class="col-md-12 note">
