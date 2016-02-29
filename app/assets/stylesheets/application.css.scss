@@ -97,30 +97,12 @@ body {
     min-height: 200px;
   }
 
-  &.main2 {
-    background: image-url("sushi4.jpg");
-    background-size: cover;
-    padding-top: 40%;
-  }
-
   &.menu1 {
     background: image-url("IMG_3670.JPG");
     padding-top: 50%;
     background-size: cover;
     margin: auto;
     min-height: 200px;
-  }
-
-  &.menu2 {
-    background: image-url("sushi1.jpg");
-    background-size: cover;
-  }
-
-
-  &.main3 {
-    background: image-url("sushi2.jpg");
-    color: $offwhite;
-    background-size: cover;
   }
 }
 
@@ -182,10 +164,7 @@ a.main {
 }
 
 .menu-header {
-  // height: 75px;
-  // top: 425px;
   display: block;
-  // background-color: transparentize($grey, .40);
   z-index: 50;
 
   &.high-header {
